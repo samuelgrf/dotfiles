@@ -1,0 +1,30 @@
+[user]
+    name = Samuel Gräfenstein
+    email = s@muel.gr
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKAG2d5i1lYDpUMBqVODIrjzWfQXYAOMVfwQ9ChZLsyk s@muel.gr
+[gpg]
+    format = ssh
+[commit]
+    gpgsign = true
+[tag]
+    gpgsign = true
+
+[pull]
+    ff = only
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
+[url "ssh://git@gitlab.com/"]
+    insteadOf = https://gitlab.com/
+
+[core]
+    pager = git-delta
+[interactive]
+    diffFilter = git-delta --color-only
+[delta]
+    line-numbers = true
+    navigate = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
+
