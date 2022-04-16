@@ -1,3 +1,6 @@
+[submodule "vim/repos/terminus"]
+	path = vim/repos/terminus
+	url = https://github.com/wincent/terminus.git
 [submodule "zsh/repos/fast-syntax-highlighting"]
 	path = zsh/repos/fast-syntax-highlighting
 	url = https://github.com/zdharma-continuum/fast-syntax-highlighting.git
