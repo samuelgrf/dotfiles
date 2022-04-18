@@ -66,6 +66,7 @@ alias sd='sudo shutdown'
 alias sdc='sudo shutdown -c'
 alias sdn='sudo shutdown now'
 alias smart='sudo smartctl -a'
+alias sudo='sudo '
 alias t='tree'
 
 # Functions
