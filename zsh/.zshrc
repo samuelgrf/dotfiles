@@ -42,6 +42,7 @@ setopt AUTO_CONTINUE HIST_FCNTL_LOCK
 # Environment variables
 export EDITOR='vim'
 export LESS='-F -i -M -R'
+export PATH="$HOME/.local/bin:$PATH"
 
 # Aliases
 alias bat='bat --wrap=never'
