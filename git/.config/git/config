@@ -18,16 +18,3 @@
     insteadOf = https://github.com/
 [url "ssh://git@gitlab.com/"]
     insteadOf = https://gitlab.com/
-
-[core]
-    pager = git-delta
-[interactive]
-    diffFilter = git-delta --color-only
-[delta]
-    line-numbers = true
-    navigate = true
-[merge]
-    conflictstyle = diff3
-[diff]
-    colorMoved = default
-
