@@ -69,6 +69,7 @@ alias sdn='sudo shutdown now'
 alias smart='sudo smartctl -a'
 alias sudo='sudo '
 alias t='tree'
+alias z='zypper'
 
 # Functions
 inc() {
