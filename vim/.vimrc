@@ -4,3 +4,6 @@ autocmd VimLeave * call system('printf "\e[5 q" > $TTY')
 
 " Fix lag when escaping to normal mode.
 set timeoutlen=10
+
+" Enable smart case-insensitive search.
+set ignorecase smartcase
