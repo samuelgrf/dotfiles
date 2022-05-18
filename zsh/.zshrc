@@ -27,7 +27,7 @@ ZSH_CUSTOM="$HOME/.ohmyzsh-custom"
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(fast-syntax-highlighting git zsh-autosuggestions)
+plugins=(fast-syntax-highlighting git suse zsh-autosuggestions)
 
 source "$ZSH/oh-my-zsh.sh"
 
@@ -70,7 +70,6 @@ alias se='sudoedit'
 alias smart='sudo smartctl -a'
 alias sudo='sudo '
 alias t='tree'
-alias z='zypper'
 
 # Functions
 inc() {
