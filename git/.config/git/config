@@ -1,7 +1,7 @@
 [user]
     name = Samuel Gräfenstein
     email = s@muel.gr
-    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKAG2d5i1lYDpUMBqVODIrjzWfQXYAOMVfwQ9ChZLsyk s@muel.gr
+    signingkey = ~/.ssh/id_ed25519_git
 
 [commit]
     gpgsign = true
@@ -10,7 +10,7 @@
 [gpg]
     format = ssh
 [gpg "ssh"]
-    allowedSignersFile = /home/samuel/.config/git/allowed_signers
+    allowedSignersFile = ~/.config/git/allowed_signers
 
 [pull]
     ff = only
