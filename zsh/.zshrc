@@ -17,6 +17,7 @@ alias cpr='cp -r'
 alias dso='disown'
 alias du='du -h'
 alias e="$EDITOR"
+alias fd="fdfind"
 alias grl='git reflog'
 alias grlp='git reflog -p'
 alias gstlp='git stash list -p'
